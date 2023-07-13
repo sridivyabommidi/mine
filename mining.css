@@ -1,0 +1,187 @@
+
+
+
+.pmrlogo{
+    width:120px;
+
+}
+.banner{
+    background-image:url("https://wallpaperaccess.com/full/2741780.jpg");
+    background-size:cover;
+    padding-top:2px;
+    padding-right:0px !important;
+    
+    
+   
+
+   
+
+}
+
+
+
+@media(max-width:576px){
+    .pmrlogo{
+       width:70px;
+    }
+    .icons{
+        font-size:15px;
+    }
+
+    .fonts{
+        font-size:20px;
+    }
+    .banner{
+        padding-bottom:100px;
+    }
+    
+  
+}
+
+@media(min-width:578px;){
+    .cars{
+        height:80vh;
+    }
+    
+}
+
+.icons{
+    color:black;
+    font-size:30px;
+    
+    padding:3px;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+    border-radius:100%;
+}
+
+.navs{
+    
+    color:white;
+    font-size:25px;
+    text-decoration:none;
+    text-shadow:1px 1px 4px #ffd93d;
+}
+
+.crossmark{
+    color:white;
+    font-size:30px;
+}
+
+
+
+
+
+
+
+
+.spahead{
+   color:#00d2ff;
+}
+
+
+.bimg{
+   
+   width:100%;
+   border-top-left-radius:100%;
+   
+}
+
+.owlnavs{
+    background-color:black;
+    color:white;
+    margin-right:20px;
+}
+
+
+.servicenavs{
+    background-color:white;
+    color:black;
+    text-shadow:1px 1px 4px black;
+    border-radius:100%;
+    
+}
+
+#id1, #id2, #id3, #id4, #id5, #id6, #id7, #id8, #id9{
+    color:black;
+    font-weight:bold;
+}
+
+
+.card {
+     
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top right, #ffffff, #ffd93d);
+    opacity: 0.9;
+    transform-origin: right;
+    transform: skewX(45deg) translateX(-140%);
+    transition: transform 0.5s ease;
+  }
+
+  .card:hover::before {
+    transform: skewX(45deg) translateX(0%);
+
+  }
+
+  .card-content {
+    padding: 30px;
+    text-align: center;
+    color: black;
+    position: relative;
+    z-index: 1;
+  }
+
+  .card-content h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+
+  .card-content p {
+    font-size: 16px;
+  }
+
+  .para{
+    height:200px;
+    display:flex;
+    overflow-y:scroll;
+
+  }
+
+  .para::-webkit-scrollbar {
+    background-color:black;
+    width:5px;
+  }
+
+  .para::-webkit-scrollbar-thumb{
+    background-color:yellow;
+  }
+
+  .gallery  img:hover {
+    
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.gallery img {
+    transition: transform 0.5s;
+}
